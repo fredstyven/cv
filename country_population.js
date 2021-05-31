@@ -21,7 +21,7 @@ $(document).ready(function(){
     if(elem == "" || elem == " ")
     alert("Please enter a country!");
     else{
-      getPopulation(elem);
+      getPopulation(elem.charAt(0).toUpperCase() + elem.slice(1).toLowerCase());
     }
   });
 

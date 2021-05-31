@@ -22,9 +22,30 @@ body {
     border-spacing: 0;
 }
 
-.footer {
+#footer {
+    width: 25%;
+    margin: auto;
+
+    background-color: whitesmoke;
     border: 2px solid darkgrey;
     border-spacing: 10;
+    padding: 10px;
+}
+
+#input_elements {
+    text-align: left;
+}
+
+#list {
+    text-align: left;
+}
+
+span.remove:hover {
+    cursor: pointer;
+}
+
+i.fas.fa-times:hover {
+    cursor: pointer;
 }
 
 /*row-container */
