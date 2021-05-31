@@ -1,0 +1,26 @@
+#main {
+    width: 25%;
+    margin: auto;
+
+    background-color: whitesmoke;
+    border: 2px solid darkgrey;
+    padding: 10px;
+}
+
+#input_elements {
+    /*width: 100%;*/
+    /*margin: auto;*/
+    text-align: left;
+}
+
+#list {
+    text-align: left;
+}
+
+span.remove:hover {
+    cursor: pointer;
+}
+
+i.fas.fa-times:hover {
+    cursor: pointer;
+}
