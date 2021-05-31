@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.upper {
+    border: 2px solid darkgrey;
+    border-spacing: 0;
+}
+
+.mid {
+    border: 2px solid darkgrey;
+    border-spacing: 0;
+}
+
+.lower {
+    border: 2px solid darkgrey;
+    border-spacing: 0;
+}
+
+.footer {
+    border: 2px solid darkgrey;
+    border-spacing: 10;
+}
+
+/*row-container */
+.row-container {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Two columns side and main */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/*edu-container */
+.edu-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Three columns edu-cards */
+.edu-card {
+    flex: 33%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* Responsive: If less than 600px wide, stack side and main
+   Responsive: If less than 600px wide, stack edu-cards*/
+@media screen and (max-width: 600px) {
+    .row-container, .edu-container {   
+        flex-direction: column;
+    }
+}
